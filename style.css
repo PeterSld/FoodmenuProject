@@ -28,8 +28,9 @@ h1{
     border: 2px solid #fff;
     border-radius: 15px;
     box-shadow: 0 0 5px 1px #cacaca;
-    width: calc(100% - 10px);
-    padding-bottom: 56%;
+    height: 300px;
+    width:calc(100% - 10px);
+    padding-bottom: 26%;
     margin: 5px auto 0;
 }
 .food_img img {
