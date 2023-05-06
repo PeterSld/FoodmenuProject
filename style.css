@@ -30,7 +30,7 @@ h1{
     box-shadow: 0 0 5px 1px #cacaca;
     width: calc(100% - 10px);
     padding-bottom: 70%;
-    margin: 3px auto 0;
+    margin: 4px auto 0;
     max-height: 100px;
     min-width: 100px;
 }
