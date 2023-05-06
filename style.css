@@ -40,21 +40,6 @@ h1{
     height: 100%;
     position: absolute;
 }
-.add {
-    font-size: 20px;
-    width: 25px;
-    height: 25px;
-    right: 15px;
-    font-weight: 900;
-    position: absolute;
-    bottom: 10px;
-    border: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding-bottom: 3px;
-}
 .food_info {
 
     padding-left: 5px;
@@ -82,14 +67,26 @@ h1{
     color: gray;
     padding-right: 5px;
 }
-
+.add {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    right: 2%;
+    font-weight: 900;
+    position: absolute;
+    bottom: 2%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
 .price {
     padding: 2px 5px;
     font-size: 18px;
     font-weight: 600;
     margin: 20px 0 -7px;
-    left: 5px;
-    bottom: 10px;
 }
 .tableView .food_card{
     left: 10%;
@@ -98,8 +95,10 @@ h1{
 .tableView .main_info{
     flex-direction: row;
 }
+
 .tableView .price{
-    margin-bottom: -17px;
+    position: absolute;
+    bottom: 5%;
 }
 .tableView .food_img{
     margin-left: -13%;
