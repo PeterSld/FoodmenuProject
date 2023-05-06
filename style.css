@@ -7,8 +7,7 @@ h1{
 .food_card {
     margin: 10px 0;
     position: relative;
-    display: block;
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
     min-height: 110px;
     border-radius: 15px;
@@ -20,18 +19,20 @@ h1{
     width: 100%;
     display: flex;
     flex-direction:column;
+    
 }
 .food_img {
+    
     position: relative;
-    margin-top: 10px;
     overflow: hidden;
     border: 2px solid #fff;
     border-radius: 15px;
     box-shadow: 0 0 5px 1px #cacaca;
-    height: 300px;
-    width:calc(100% - 10px);
-    padding-bottom: 26%;
-    margin: 5px auto 0;
+    width: calc(100% - 10px);
+    padding-bottom: 70%;
+    margin: 18px auto 0;
+    max-height: 100px;
+    min-width: 100px;
 }
 .food_img img {
     object-fit: cover;
@@ -41,14 +42,18 @@ h1{
 }
 .add {
     font-size: 20px;
-    width: 35px;
+    width: 25px;
+    height: 25px;
     right: 15px;
     font-weight: 900;
     position: absolute;
     bottom: 10px;
     border: 2px solid black;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    padding-bottom: 3px;
 }
 .food_info {
     min-height: 100px;
@@ -64,31 +69,98 @@ h1{
     margin-bottom: 0;
     left: 5px;
     position: relative;
+    padding-right: 5px;
 }
 
 .food_content {
+    width: calc(100% - 40px);
+
+    white-space: normal;
     position: relative;
     font-size: 14px;
     left: 5px;
     color: gray;
+    padding-right: 5px;
 }
 
 .price {
     padding: 2px 5px;
     font-size: 18px;
     font-weight: 600;
-    position: absolute;
+    margin: 20px 0 -7px;
     left: 5px;
     bottom: 10px;
 }
-.table .main_info{
+.tableView .food_card{
+    left: 10%;
+    width: 90%;
+}
+.tableView .main_info{
     flex-direction: row;
 }
-.table .add{
-    bottom: auto;
-    top: 15px;
+.tableView .price{
+    margin: 60px 0 -17px;
 }
-.table .price{
-    left: auto;
-    right: 5px;
+.tableView .food_img{
+    margin-left: -13%;
+    padding-bottom: 21%;
+    width: calc(100% - 250px);
+}
+.tableView{
+    margin-bottom: auto !important;
+}
+.darkTheme.clr0{
+    color: #000 !important;
+    background-color: #000 !important;
+}
+.darkTheme .clr1{
+    color: #111 !important;
+}
+.darkTheme .clr2{
+    color: #222 !important;
+}
+.darkTheme .clr3{
+    color: #333 !important;
+}
+.darkTheme .clr4{
+    color: #444 !important;
+}
+.darkTheme .clr5{
+    color: #555 !important;
+}
+.darkTheme .clr6{
+    color: #666 !important;
+}
+.darkTheme .clr7{
+    color: #777 !important;
+}
+.darkTheme .clr8{
+    color: #888 !important;
+}
+.darkTheme .clr9{
+    color: #999 !important;
+}
+.darkTheme .clr10{
+    color: #aaa !important;
+}
+.darkTheme .clr11{
+    color: #bbb !important;
+}
+.darkTheme .clr12{
+    color: #ccc !important;
+}
+.darkTheme .clr13{
+    color: #ddd !important;
+}
+.darkTheme .clr14{
+    color: #eee !important;
+}
+.darkTheme .clr15{
+    color: #fff !important;
+    border-color: #fff;
+}
+@media screen and (min-width:768px){
+    .tableView .food_img{
+        margin-top: 5px;
+    }
 }
