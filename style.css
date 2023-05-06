@@ -7,7 +7,7 @@ h1{
 .food_card {
     margin: 10px 0;
     position: relative;
-    width: 90%;
+    width: 92%;
     margin-bottom: 10px;
     min-height: 110px;
     border-radius: 15px;
@@ -101,7 +101,7 @@ h1{
     bottom: 5%;
 }
 .tableView .food_img{
-    margin-left: -13%;
+    margin-left: -8%;
     padding-bottom: 21%;
     width: calc(100% - 250px);
 }
