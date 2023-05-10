@@ -1,6 +1,32 @@
 h1{
     margin:10px;
 }
+.container-fluid img{
+    padding: 4%;
+}
+.modal-dialog{
+    max-width: 95% !important;
+}
+.unit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100%/4) !important;
+}
+.unit img{
+    width: 100%;
+    border-radius: 20%;
+}
+.pseudoCarousel{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 95%;
+}
+.pseudoCarousel img{
+    width: calc(100%/4 - 5%);
+    min-height: 50px;
+}
 .food_card_wrap {
     display: flex;
 }
@@ -89,8 +115,8 @@ h1{
     margin: 20px 0 -7px;
 }
 .tableView .food_card{
-    left: 10%;
-    width: 90%;
+    left: 5%;
+    width: 94%;
 }
 .tableView .main_info{
     flex-direction: row;
@@ -101,7 +127,7 @@ h1{
     bottom: 5%;
 }
 .tableView .food_img{
-    margin-left: -8%;
+    margin-left: -4%;
     padding-bottom: 21%;
     width: calc(100% - 250px);
 }
