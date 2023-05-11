@@ -10,7 +10,7 @@ h1{
 .unit img{
     padding: 2%;
     width: 100%;
-    border-radius: 20%;
+    border-radius: 21%;
 }
 .pseudoCarousel{
     display: flex;
