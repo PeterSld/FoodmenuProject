@@ -1,5 +1,18 @@
-h1{
+h1, .modalNew{
     margin:10px;
+}
+.pseudoCarousel::-webkit-scrollbar{
+    width: 2em;
+}
+.pseudoCarousel::-webkit-scrollbar-track{
+    background: hsl(48, 61%, 73%);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+.pseudoCarousel::-webkit-scrollbar-thumb{
+    background: hsl(12, 89%, 49%);
+    border: .25em solid hsl(48, 61%, 73%);
+    border-radius: 100vw;
 }
 .unit{
     display: flex;
@@ -10,17 +23,24 @@ h1{
 .unit img{
     padding: 2%;
     width: 100%;
-    border-radius: 21%;
+    border-radius: 20%;
 }
 .pseudoCarousel{
+    scrollbar-color: #d5ac68 #f1db9d;
+    scrollbar-width: thin;
+    overflow-x: scroll;
     display: flex;
-    margin: auto;
-    justify-content: space-evenly;
-    width: 95%;
+    margin: 3% auto;
+    width: 90%;
 }
 .pseudoCarousel img{
+    margin-right: 5%;
     width: calc(100%/4 - 5%);
     min-height: 50px;
+    border-radius: 20%;
+}
+#lastImg{
+    margin-right: 0;
 }
 .food_card_wrap {
     display: flex;
