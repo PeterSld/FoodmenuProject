@@ -1,19 +1,14 @@
 h1{
     margin:10px;
 }
-.container-fluid img{
-    padding: 4%;
-}
-.modal-dialog{
-    max-width: 95% !important;
-}
 .unit{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: calc(100%/4) !important;
+    width: calc(100%/3) !important;
 }
 .unit img{
+    padding: 2%;
     width: 100%;
     border-radius: 20%;
 }
@@ -185,6 +180,12 @@ h1{
     border-color: #fff;
 }
 @media screen and (min-width:768px){
+    .unit img{
+        padding: 4%;
+    }
+    .unit{
+        width: calc(100%/4) !important;
+    }
     .tableView .food_img{
         margin-top: 5px;
     }
