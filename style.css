@@ -32,7 +32,7 @@ h1, .modalNew{
     width: 90%;
 }
 .pseudoCarousel img{
-    margin-right: 5%;
+    margin-right: 4%;
     margin-bottom: 2%;
     width: calc(100%/4 - 5%);
     min-height: 50px;
@@ -200,7 +200,7 @@ h1, .modalNew{
 }
 @media screen and (min-width:768px){
     .pseudoCarousel img{
-        max-width: 200px;
+        max-width: 150px;
     }
     .unit img{
         padding: 4%;
