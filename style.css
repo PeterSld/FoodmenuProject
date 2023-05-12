@@ -14,6 +14,25 @@ h1, .modalNew{
     border: .25em solid hsl(48, 61%, 73%);
     border-radius: 100vw;
 }
+.pseudoCarousel{
+    overflow-x: scroll;
+    display: flex;
+    margin: 3% auto;
+    width: 90%;
+}
+.pseudoCarousel img{
+    margin-right: 4%;
+    margin-bottom: 2%;
+    width: calc(100%/4 - 5%);
+    min-height: 50px;
+    border-radius: 20%;
+}
+#lastImg{
+    margin-right: 0;
+}
+.modal-body .row{
+    justify-content: center;
+}
 .unit{
     display: flex;
     align-items: center;
@@ -24,22 +43,6 @@ h1, .modalNew{
     padding: 2%;
     width: 100%;
     border-radius: 20%;
-}
-.pseudoCarousel{
-    overflow-x: scroll;
-    display: flex;
-    margin: 3% auto;
-    width: 90%;
-}
-.pseudoCarousel img{
-    margin-right: 3%;
-    margin-bottom: 2%;
-    width: calc(100%/4 - 3%);
-    min-height: 50px;
-    border-radius: 20%;
-}
-#lastImg{
-    margin-right: 0;
 }
 .food_card_wrap {
     display: flex;
